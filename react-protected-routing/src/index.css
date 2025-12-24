@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.page {
+  max-width: 500px;
+  margin: auto;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, button {
+  padding: 8px;
+}
+
+.error {
+  color: red;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.todo-card {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  color: black;
+  border-radius: 6px;
+}
